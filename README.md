@@ -3,7 +3,7 @@ I want to create and register deploy keys for doing `git pull` or `git clone`. W
 
 # Solution (with github automation)
 1. Clone this repository.
-1. Create personal access tokens on (https://github.com/settings/tokens)[https://github.com/settings/tokens]
+1. Create personal access tokens on https://github.com/settings/tokens
 1. Click `Generate new token`
 1. Add some note for yourself and tick `repo` (Full control of private repositories)
 1. `Generate token`
