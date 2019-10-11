@@ -1,6 +1,6 @@
 {
+    "owner": "zynaxsoft",
     "repository": [
-        "myrepo1",
-        "myrepo2"
+        "deploy-key-gen"
     ]
 }
