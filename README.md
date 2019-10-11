@@ -15,6 +15,8 @@ I want to create and register deploy keys for doing `git pull` or `git clone`. W
   * passphrase is a password that you have to enter when doing `git` remote related commands
 1. Follow the instructions on appeared readme in the terminal.
 
+**Removing the created personal access token after the keys are successfully added is also a good idea !**
+
 
 # Solution (no github automation)
 1. Clone this repository.
