@@ -15,7 +15,13 @@ I want to create and register deploy keys for doing `git pull` or `git clone`. W
   * passphrase is a password that you have to enter when doing `git` remote related commands
 1. Follow the instructions on appeared readme in the terminal.
 
-**Removing the created personal access token after the keys are successfully added is also a good idea !**
+**Removing the created personal access token after the keys will also remove the generated/added deploy keys.**
+
+If you want to be sure that this key will cause no harm, you can
+ * Change the scope of the key by unchecking the checked `repo` option.
+   * This will make the key has access to only public repository only and wii have only *read* access. [(reference)](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/)
+ * Update token.
+ * Regenerate the token.
 
 
 # Solution (no github automation)
