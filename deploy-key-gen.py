@@ -50,7 +50,7 @@ def add_deploy_key(repo_name, public_key):
     if int(response.status_code) != 201:
         print(f'Error adding {repo_name}: {response.content}')
         return False
-    print('Successfully added the public key to {repo_name}')
+    print(f'Successfully added the public key to {repo_name}')
     return True
 
 
